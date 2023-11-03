@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #111;
+}
+
+.for-youbabe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 140px;
+}
+
+.testaja {
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 5rem;
+}
+
+.for-youbabe span {
+    animation: erlngga 2.5s ease-in-out infinite;
+}
+
+@keyframes erlngga {
+
+    0%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 12px #0112ff, 0 0 50px #0112ff, 0 0 100px #0112ff;
+    }
+
+    10%,
+    90% {
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+.for-youbabe span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+
+.container span {
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 12px #fff, 0 0 50px #fff, 0 0 100px #fff;
+    }
+
+    10%,
+    90% {
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+.container span:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+.container span:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.container span:nth-child(4) {
+    animation-delay: 0.75s;
+}
+
+.container span:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.container span:nth-child(6) {
+    animation-delay: 1.25s;
+}
+
+.container span:nth-child(7) {
+    animation-delay: 1.50s;
+}
+
+.button-here {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.border-button {
+    width: 230px;
+    height: 43px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.border-button:hover {
+    width: 230px;
+    height: 43px;
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon-flower {
+    padding-top: 5px;
+}
+
+.row-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.atur-button {
+    padding-top: 5px;
+    color: #fff;
+}
+
+.button-here a {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 30px;
+    color: #fff;
+}
